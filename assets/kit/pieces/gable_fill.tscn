@@ -1,0 +1,9 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/kit/gable_fill.glb" id="1_src"]
+
+[node name="GableFill" groups=["occluder"] instance=ExtResource("1_src")]
+
+[node name="Gable_FillCol" parent="."]
+collision_layer = 2
+collision_mask = 0

@@ -1,0 +1,50 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Aplared Ipocalypse"
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
+config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="New Game Project"
+
+[layer_names]
+
+3d_physics/layer_1="World"
+3d_physics/layer_2="ClickBlock"
+3d_physics/layer_3="Interactable"
+
+[navigation]
+
+3d/default_cell_size=0.1
+3d/default_cell_height=0.1
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+
+[shader_globals]
+
+occlusion_camera_diag={
+"type": "vec2",
+"value": Vector2(0, 0)
+}

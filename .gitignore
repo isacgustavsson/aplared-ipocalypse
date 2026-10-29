@@ -1,0 +1,24 @@
+# Godot 4+ cache and generated files
+.godot/
+/android/
+
+# Godot 3 (legacy)
+.import/
+export.cfg
+export_credentials.cfg
+
+# C# / .NET build output
+.mono/
+data_*/
+mono_crash.*.json
+bin/
+obj/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local backups
+*.bak
+*.bak[0-9]*

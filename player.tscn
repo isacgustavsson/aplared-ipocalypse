@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://cbya706d46skq" path="res://PlayerClick.cs" id="1_script"]
+[ext_resource type="PackedScene" uid="uid://x42npc5v1gmn" path="res://assets/characters/Characters/gltf/Knight.glb" id="2_knight"]
+[ext_resource type="AnimationLibrary" uid="uid://p0jf5povlj8n" path="res://assets/characters/Animations/rig_medium_animations.glb" id="3_anims"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_player"]
+radius = 0.3
+height = 1.8
+
+[node name="Player" type="CharacterBody3D"]
+floor_max_angle = 1.0471976
+floor_snap_length = 1.5
+script = ExtResource("1_script")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("CapsuleShape3D_player")
+
+[node name="Knight" parent="." instance=ExtResource("2_knight")]
+transform = Transform3D(-0.7, 0, 0, 0, 0.7, 0, 0, 0, -0.7, 0, 0, 0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Knight"]
+libraries = {
+&"": ExtResource("3_anims")
+}

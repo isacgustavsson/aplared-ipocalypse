@@ -1,0 +1,9 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/kit/roof_eave.glb" id="1_src"]
+
+[node name="RoofEave" groups=["occluder"] instance=ExtResource("1_src")]
+
+[node name="Roof_EaveCol" parent="."]
+collision_layer = 2
+collision_mask = 0

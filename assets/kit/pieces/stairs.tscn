@@ -1,0 +1,5 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/kit/stairs.glb" id="1_src"]
+
+[node name="Stairs" groups=["never_cut"] instance=ExtResource("1_src")]

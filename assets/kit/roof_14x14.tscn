@@ -1,0 +1,253 @@
+[gd_scene format=3 uid="uid://blggkt5qvqlc4"]
+
+[ext_resource type="PackedScene" path="res://assets/kit/pieces/roof_eave.tscn" id="1_roof_eave"]
+[ext_resource type="PackedScene" path="res://assets/kit/pieces/roof_slope.tscn" id="2_roof_slope"]
+[ext_resource type="PackedScene" path="res://assets/kit/pieces/roof_ridge.tscn" id="3_roof_ridge"]
+[ext_resource type="PackedScene" path="res://assets/kit/pieces/gable_slope.tscn" id="4_gable_slope"]
+[ext_resource type="PackedScene" path="res://assets/kit/pieces/gable_fill.tscn" id="5_gable_fill"]
+[ext_resource type="PackedScene" path="res://assets/kit/pieces/gable_peak.tscn" id="6_gable_peak"]
+
+[node name="Roof_14x14" type="Node3D" unique_id=1787162894]
+
+[node name="RoofEave1" parent="." unique_id=1643923265 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+
+[node name="RoofEave2" parent="." unique_id=1922553281 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 2, 3, -14)
+
+[node name="RoofSlope1" parent="." unique_id=1492604901 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, -2)
+
+[node name="RoofSlope2" parent="." unique_id=85564970 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 2, 4, -12)
+
+[node name="RoofSlope3" parent="." unique_id=355492788 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, -4)
+
+[node name="RoofSlope4" parent="." unique_id=1740399589 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 2, 5, -10)
+
+[node name="RoofRidge1" parent="." unique_id=714335944 instance=ExtResource("3_roof_ridge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, -6)
+
+[node name="RoofEave3" parent="." unique_id=1898225053 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 3, 0)
+
+[node name="RoofEave4" parent="." unique_id=1505531490 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 4, 3, -14)
+
+[node name="RoofSlope5" parent="." unique_id=2123591216 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 4, -2)
+
+[node name="RoofSlope6" parent="." unique_id=527383365 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 4, 4, -12)
+
+[node name="RoofSlope7" parent="." unique_id=969062624 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 5, -4)
+
+[node name="RoofSlope8" parent="." unique_id=1812636806 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 4, 5, -10)
+
+[node name="RoofRidge2" parent="." unique_id=646522513 instance=ExtResource("3_roof_ridge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 6, -6)
+
+[node name="RoofEave5" parent="." unique_id=389209741 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 3, 0)
+
+[node name="RoofEave6" parent="." unique_id=2061494130 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 6, 3, -14)
+
+[node name="RoofSlope9" parent="." unique_id=913414558 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 4, -2)
+
+[node name="RoofSlope10" parent="." unique_id=312895743 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 6, 4, -12)
+
+[node name="RoofSlope11" parent="." unique_id=1481439735 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 5, -4)
+
+[node name="RoofSlope12" parent="." unique_id=1570889615 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 6, 5, -10)
+
+[node name="RoofRidge3" parent="." unique_id=724150669 instance=ExtResource("3_roof_ridge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 6, -6)
+
+[node name="RoofEave7" parent="." unique_id=652121019 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 3, 0)
+
+[node name="RoofEave8" parent="." unique_id=93572564 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 8, 3, -14)
+
+[node name="RoofSlope13" parent="." unique_id=1853408118 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 4, -2)
+
+[node name="RoofSlope14" parent="." unique_id=2139441827 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 8, 4, -12)
+
+[node name="RoofSlope15" parent="." unique_id=1884182245 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 5, -4)
+
+[node name="RoofSlope16" parent="." unique_id=549425958 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 8, 5, -10)
+
+[node name="RoofRidge4" parent="." unique_id=2123255550 instance=ExtResource("3_roof_ridge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 6, -6)
+
+[node name="RoofEave9" parent="." unique_id=1735775524 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 3, 0)
+
+[node name="RoofEave10" parent="." unique_id=1944204171 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 10, 3, -14)
+
+[node name="RoofSlope17" parent="." unique_id=1696468377 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 4, -2)
+
+[node name="RoofSlope18" parent="." unique_id=1100721938 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 10, 4, -12)
+
+[node name="RoofSlope19" parent="." unique_id=912805487 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 5, -4)
+
+[node name="RoofSlope20" parent="." unique_id=799982311 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 10, 5, -10)
+
+[node name="RoofRidge5" parent="." unique_id=228007974 instance=ExtResource("3_roof_ridge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 6, -6)
+
+[node name="RoofEave11" parent="." unique_id=1894027813 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 3, 0)
+
+[node name="RoofEave12" parent="." unique_id=2079862473 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 12, 3, -14)
+
+[node name="RoofSlope21" parent="." unique_id=564848547 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 4, -2)
+
+[node name="RoofSlope22" parent="." unique_id=471015801 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 12, 4, -12)
+
+[node name="RoofSlope23" parent="." unique_id=792164580 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 5, -4)
+
+[node name="RoofSlope24" parent="." unique_id=1380143949 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 12, 5, -10)
+
+[node name="RoofRidge6" parent="." unique_id=1313498907 instance=ExtResource("3_roof_ridge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 6, -6)
+
+[node name="RoofEave13" parent="." unique_id=615771982 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 3, 0)
+
+[node name="RoofEave14" parent="." unique_id=1300425544 instance=ExtResource("1_roof_eave")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 14, 3, -14)
+
+[node name="RoofSlope25" parent="." unique_id=724612494 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 4, -2)
+
+[node name="RoofSlope26" parent="." unique_id=1109332359 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 14, 4, -12)
+
+[node name="RoofSlope27" parent="." unique_id=356588290 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 5, -4)
+
+[node name="RoofSlope28" parent="." unique_id=1048096549 instance=ExtResource("2_roof_slope")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 14, 5, -10)
+
+[node name="RoofRidge7" parent="." unique_id=449983025 instance=ExtResource("3_roof_ridge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 6, -6)
+
+[node name="GableSlope1" parent="." unique_id=1632551688 instance=ExtResource("4_gable_slope")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0, 3, 0)
+
+[node name="GableSlope2" parent="." unique_id=1701234972 instance=ExtResource("4_gable_slope")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 0, 3, -14)
+
+[node name="GableFill1" parent="." unique_id=394373534 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0, 3, -2)
+
+[node name="GableFill2" parent="." unique_id=208620101 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 0, 3, -12)
+
+[node name="GableSlope3" parent="." unique_id=1734521501 instance=ExtResource("4_gable_slope")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0, 4, -2)
+
+[node name="GableSlope4" parent="." unique_id=1772986611 instance=ExtResource("4_gable_slope")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 0, 4, -12)
+
+[node name="GableFill3" parent="." unique_id=507055290 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0, 3, -4)
+
+[node name="GableFill4" parent="." unique_id=1300375499 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 0, 3, -10)
+
+[node name="GableFill5" parent="." unique_id=2125133899 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0, 4, -4)
+
+[node name="GableFill6" parent="." unique_id=1091473832 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 0, 4, -10)
+
+[node name="GableSlope5" parent="." unique_id=483236108 instance=ExtResource("4_gable_slope")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0, 5, -4)
+
+[node name="GableSlope6" parent="." unique_id=79514261 instance=ExtResource("4_gable_slope")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 0, 5, -10)
+
+[node name="GableFill7" parent="." unique_id=1166694600 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0, 3, -6)
+
+[node name="GableFill8" parent="." unique_id=45048002 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0, 4, -6)
+
+[node name="GableFill9" parent="." unique_id=2093160712 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0, 5, -6)
+
+[node name="GablePeak1" parent="." unique_id=1520923256 instance=ExtResource("6_gable_peak")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0, 6, -6)
+
+[node name="GableSlope7" parent="." unique_id=1772692364 instance=ExtResource("4_gable_slope")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 3, 0)
+
+[node name="GableSlope8" parent="." unique_id=1697210181 instance=ExtResource("4_gable_slope")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 14, 3, -14)
+
+[node name="GableFill10" parent="." unique_id=567086448 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 3, -2)
+
+[node name="GableFill11" parent="." unique_id=1363053363 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 14, 3, -12)
+
+[node name="GableSlope9" parent="." unique_id=183615554 instance=ExtResource("4_gable_slope")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 4, -2)
+
+[node name="GableSlope10" parent="." unique_id=1331975204 instance=ExtResource("4_gable_slope")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 14, 4, -12)
+
+[node name="GableFill12" parent="." unique_id=1375059817 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 3, -4)
+
+[node name="GableFill13" parent="." unique_id=657475166 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 14, 3, -10)
+
+[node name="GableFill14" parent="." unique_id=508763190 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 4, -4)
+
+[node name="GableFill15" parent="." unique_id=2032418708 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 14, 4, -10)
+
+[node name="GableSlope11" parent="." unique_id=1477907112 instance=ExtResource("4_gable_slope")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 5, -4)
+
+[node name="GableSlope12" parent="." unique_id=850323898 instance=ExtResource("4_gable_slope")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 14, 5, -10)
+
+[node name="GableFill16" parent="." unique_id=1280245785 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 3, -6)
+
+[node name="GableFill17" parent="." unique_id=2002452985 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 4, -6)
+
+[node name="GableFill18" parent="." unique_id=1774714794 instance=ExtResource("5_gable_fill")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 5, -6)
+
+[node name="GablePeak2" parent="." unique_id=1511609204 instance=ExtResource("6_gable_peak")]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 6, -6)

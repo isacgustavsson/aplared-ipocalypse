@@ -1,0 +1,5 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/kit/wall_door.glb" id="1_src"]
+
+[node name="WallDoor" groups=["occluder"] instance=ExtResource("1_src")]

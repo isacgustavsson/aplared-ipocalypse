@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://assets/kit/materials/kit_occlusion_glass.gdshader" id="1_shader"]
+
+[resource]
+resource_name = "GlassMat"
+shader = ExtResource("1_shader")
+shader_parameter/albedo = Color(0.6588, 0.8471, 0.9176, 0.3)
+shader_parameter/roughness = 0.1
+shader_parameter/ghost_amount = 0.85
