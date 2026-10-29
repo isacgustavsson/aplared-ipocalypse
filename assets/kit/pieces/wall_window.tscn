@@ -1,5 +1,9 @@
 [gd_scene format=3]
 
 [ext_resource type="PackedScene" path="res://assets/kit/wall_window.glb" id="1_src"]
+[ext_resource type="Material" path="res://assets/kit/materials/kit_mat.tres" id="2_kit"]
 
 [node name="WallWindow" groups=["occluder"] instance=ExtResource("1_src")]
+
+[node name="Cube_002" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_kit")

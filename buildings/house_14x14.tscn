@@ -1,28 +1,16 @@
 [gd_scene format=3 uid="uid://jbakk3jms0rc"]
 
 [ext_resource type="PackedScene" path="res://assets/kit/pieces/roof_eave.tscn" id="1_roof_eave"]
-
 [ext_resource type="PackedScene" path="res://assets/kit/pieces/roof_slope.tscn" id="2_roof_slope"]
-
-
 [ext_resource type="PackedScene" path="res://assets/kit/pieces/roof_ridge.tscn" id="3_roof_ridge"]
-
 [ext_resource type="PackedScene" path="res://assets/kit/pieces/wall.tscn" id="4_272bh"]
-
 [ext_resource type="PackedScene" path="res://assets/kit/pieces/gable_slope.tscn" id="4_gable_slope"]
-
 [ext_resource type="PackedScene" path="res://assets/kit/pieces/wall_window.tscn" id="5_5vw27"]
-
 [ext_resource type="PackedScene" path="res://assets/kit/pieces/gable_fill.tscn" id="5_gable_fill"]
-
 [ext_resource type="PackedScene" path="res://assets/kit/pieces/gable_peak.tscn" id="6_gable_peak"]
-
 [ext_resource type="PackedScene" path="res://assets/kit/pieces/wall_door.tscn" id="6_kek77"]
-
 [ext_resource type="PackedScene" path="res://assets/kit/pieces/corner.tscn" id="7_4c57u"]
-
 [ext_resource type="PackedScene" path="res://assets/kit/pieces/floor.tscn" id="8_5vw27"]
-
 [ext_resource type="PackedScene" path="res://assets/kit/pieces/stairs.tscn" id="9_stairs"]
 
 [node name="House14x14" type="Node3D" unique_id=1606024273 groups=["building"]]
@@ -42,13 +30,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
 [node name="Wall_Door" parent="Level1/Walls" unique_id=324194836 instance=ExtResource("6_kek77")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
 
-[node name="Door" parent="Level1/Walls/Wall_Door" index="0" unique_id=1122262398]
+[node name="Door" parent="Level1/Walls/Wall_Door" index="0" unique_id=1241687853]
 transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0.51, 0.01, 0)
 
 [node name="Wall_Door2" parent="Level1/Walls" unique_id=518011483 instance=ExtResource("6_kek77")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 10, 0, -8)
 
-[node name="Door" parent="Level1/Walls/Wall_Door2" index="0" unique_id=148549066]
+[node name="Door" parent="Level1/Walls/Wall_Door2" index="0" unique_id=1241687853]
 transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0.51, 0.01, 0)
 
 [node name="Wall2" parent="Level1/Walls" unique_id=139016486 instance=ExtResource("4_272bh")]
@@ -283,7 +271,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -10)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -12)
 
 [node name="Stairs" parent="Level1" unique_id=1489734683 instance=ExtResource("9_stairs")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -4)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -10)
 
 [node name="Level2" type="Node3D" parent="." unique_id=861760468]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
@@ -396,10 +384,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -2)
 
 [node name="Floor3" parent="Level2/Floors" unique_id=1879509109 instance=ExtResource("8_5vw27")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -10)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -6)
+
+[node name="Floor47" parent="Level2/Floors" unique_id=1010419728 instance=ExtResource("8_5vw27")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -8)
 
 [node name="Floor4" parent="Level2/Floors" unique_id=1342636140 instance=ExtResource("8_5vw27")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -12)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -4)
 
 [node name="Floor5" parent="Level2/Floors" unique_id=1664896547 instance=ExtResource("8_5vw27")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
@@ -418,9 +409,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -8)
 
 [node name="Floor10" parent="Level2/Floors" unique_id=445227505 instance=ExtResource("8_5vw27")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -10)
-
-[node name="Floor11" parent="Level2/Floors" unique_id=813392774 instance=ExtResource("8_5vw27")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -12)
 
 [node name="Floor12" parent="Level2/Floors" unique_id=1998659503 instance=ExtResource("8_5vw27")]
 
@@ -821,10 +809,6 @@ transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 6, -6)
 
 [node name="Walls" type="Node3D" parent="Extension" unique_id=802130824]
 
-[node name="Floors" type="Node3D" parent="Extension" unique_id=204854159]
-
-[node name="Roof" type="Node3D" parent="Extension" unique_id=645546646]
-
 [node name="Wall20" parent="Extension/Walls" unique_id=2143004261 instance=ExtResource("4_272bh")]
 transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 12, 0, -4)
 
@@ -867,6 +851,8 @@ transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 14, 3.00267, -10)
 [node name="GableFill25" parent="Extension/Walls" unique_id=677663700 instance=ExtResource("5_gable_fill")]
 transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 12, 3.00267, -10)
 
+[node name="Floors" type="Node3D" parent="Extension" unique_id=204854159]
+
 [node name="Floor1" parent="Extension/Floors" unique_id=1694313204 instance=ExtResource("8_5vw27")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -4)
 
@@ -884,6 +870,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -6)
 
 [node name="Floor6" parent="Extension/Floors" unique_id=1054432380 instance=ExtResource("8_5vw27")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -8)
+
+[node name="Roof" type="Node3D" parent="Extension" unique_id=645546646]
 
 [node name="RoofSlope38" parent="Extension/Roof" unique_id=604114619 instance=ExtResource("2_roof_slope")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 4, -4)
@@ -916,5 +904,4 @@ transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 4, -6)
 transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 14, 5, -6)
 
 [editable path="Level1/Walls/Wall_Door"]
-
 [editable path="Level1/Walls/Wall_Door2"]
